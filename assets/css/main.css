@@ -328,8 +328,9 @@ form.search-form button {
     font-family: "fontawesome";
     margin-left: 4px; }
   #menu ul > li {
-    display: inline-block;
-    position: relative; }
+	display: inline-block;
+	position: relative;
+}
     #menu ul > li > a {
       padding: 0 15px;
       font-weight: 500;
@@ -340,17 +341,18 @@ form.search-form button {
       color: #b5c3d4; }
 
 #menu ul ul {
-  position: absolute;
-  background-color: #fff;
-  left: 0;
-  top: calc(100% + 23px);
-  z-index: 2;
-  width: 220px;
-  text-align: left;
-  padding: 15px 20px;
-  opacity: 0;
-  visibility: hidden;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15); }
+	position: absolute;
+	background-color: #fff;
+	left: 67px;
+	top: 66px;
+	z-index: 2;
+	width: 220px;
+	text-align: left;
+	padding: 15px 20px;
+	opacity: 0;
+	visibility: hidden;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
   #menu ul ul::after {
     content: "";
     border: 8px solid transparent;
